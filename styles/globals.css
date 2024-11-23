@@ -33,6 +33,15 @@ picture {
   padding: 0;
 }
 
+:focus {
+  border: none;
+}
+
+a:focus,
+button:focus {
+  outline: none;
+}
+
 button,
 a {
   color: currentColor;
